@@ -1,0 +1,120 @@
+html {
+    height: 100%
+}
+
+body {
+    margin: 0;
+    background: url("Images/Home page.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.navbar {
+    background-color: #1B2430;
+    overflow: auto;
+    padding: auto auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navbar ul {
+    overflow: auto;
+    margin-block-start: 6px;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    padding: 22px 18px;
+
+}
+
+.navbar .image img {
+    float: left;
+    width: 3%;
+    padding: 0% 1%;
+    margin: 10px 8px;
+
+}
+
+.navbar a {
+    color: wheat;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    border-bottom: 3px solid white;
+}
+
+.navbar a:active {
+    color: #BA6C65;
+    border-bottom: 4px solid #BA6C65;
+}
+
+
+/*Heading*/
+.heading {
+    color: #F9E3A3;
+    font-family: 'Allura', cursive;
+    font-style: oblique;
+    font-size: 9rem;
+    font-weight: normal;
+    position: absolute;
+    left: 60%;
+    top: 4%;
+}
+
+.intro {
+    color: #F9E3A3;
+    font-family: 'Lato', sans-serif;
+    font-style: oblique;
+    font-size: 2.5rem;
+    position: absolute;
+    left: 60%;
+    top: 37%;
+}
+
+/*Footer*/
+footer {
+    background-color: #1B2430;
+    position: absolute;
+    bottom: 0%;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.footer-link {
+    padding: 10px 10px 10px 10px;
+    width: 10px;
+}
+
+.footer-logo {
+    width: 4%;
+    padding-top: 20px;
+}
+
+.contact {
+    font-family: 'DM Serif Text', serif;
+    font-size: 1.3rem;
+    color: wheat;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 13px;
+}
+
+.contact:active {
+    color: #BA6C65;
+}
+
+.ending {
+    font-family: 'Montserrat', sans-serif;
+    color: wheat;
+}
